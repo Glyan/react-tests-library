@@ -18,11 +18,11 @@ describe ("FollowersList", () => {
 
     })
 
-    test ('should render multiple followers item', async () => {
+    /*test ('should render multiple followers item', async () => {
         render(<MockFollowersList />)
         const followerDivElement = await screen.findAllByTestId(/follower-item/i)
         expect(followerDivElement.length).toBe(5);
 
-    })
+    })*/
 
 })
